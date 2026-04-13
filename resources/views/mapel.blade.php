@@ -6,7 +6,7 @@
     <div class="mb-6 flex justify-between items-end">
         <div>
             <h2 class="text-2xl font-bold text-gray-800">Daftar Mata Pelajaran [ Kelas 4 ]</h2>
-            <p class="text-gray-500 text-sm italic">Kelola data muatan tematik dan non-tematik</p>
+            <p class="text-gray-500 text-sm italic">Kelola Dta Muatan Tematik dan Non-Tematik</p>
         </div>
         <button @click="bukaModal('tambah')" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold shadow-lg transition active:scale-95">
             + Tambah Data Baru

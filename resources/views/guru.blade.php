@@ -42,6 +42,7 @@
                         <option>Bahasa Indonesia</option>
                         <option>IPA</option>
                         <option>Agama</option>
+                        <option>IPS</option>
                     </select>
                 </div>
             </div>

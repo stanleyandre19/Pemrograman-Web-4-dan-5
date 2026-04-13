@@ -11,7 +11,7 @@
         <div class="text-center mb-6">
             <h1 class="text-xl font-bold text-blue-600 italic mb-2">Rapor.id</h1>
             <h2 class="text-2xl font-bold text-gray-800">Daftar Akun Baru</h2>
-            <p class="text-gray-500 text-sm">Buat akun portal baru</p>
+            <p class="text-gray-500 text-sm">Buat Akun Portal Baru</p>
         </div>
         
         <form action="{{ route('login') }}" method="GET" class="space-y-4">

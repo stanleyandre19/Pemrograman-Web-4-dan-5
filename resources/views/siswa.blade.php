@@ -15,6 +15,7 @@
             <select class="border rounded-lg px-4 py-1.5 text-sm bg-white outline-none">
                 <option>Kelas - 4 A</option>
                 <option>Kelas - 4 B</option>
+                <option>Kelas - 5 A</option>
             </select>
         </div>
         

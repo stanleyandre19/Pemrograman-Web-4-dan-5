@@ -41,7 +41,7 @@
 <div class="bg-blue-600 p-8 rounded-3xl text-white shadow-xl flex justify-between items-center">
     <div>
         <h3 class="text-2xl font-bold mb-2">Selamat Datang, Admin! 👋</h3>
-        <p class="opacity-90 max-w-md">Sistem Pengelolahan Raport Siswa</p>
+        <p class="opacity-90 max-w-md">Sistem Pengelolahan Raport Siswa </p>
     </div>
     <div class="hidden lg:block opacity-20 text-8xl">
         🏫

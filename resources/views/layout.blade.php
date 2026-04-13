@@ -27,7 +27,7 @@
             </a>
             <a href="{{ route('mapel') }}" 
                class="flex items-center px-4 py-3 rounded-xl transition-all {{ request()->is('mapel') ? 'bg-blue-600 text-white shadow-md' : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600' }}">
-                <span class="mr-3">📚</span> Mapel
+                <span class="mr-3">📚</span> Mata Pelajaran
             </a>
         </nav>
     </aside>
