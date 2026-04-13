@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'home');
-Route::view('/home', 'home');
-Route::view('/about', 'about');
+/*
+|--------------------------------------------------------------------------
+| Web Routes - Sistem Rapot Siswa
+|--------------------------------------------------------------------------
+*/
+
+Route::view('/', 'home');        // Halaman utama
+Route::view('/home', 'home');    // Home
+Route::view('/about', 'about');  // Tentang sistem
