@@ -222,5 +222,9 @@
             <div class="h-14.5 hidden lg:block"></div>
         @endif
     </body>
+<<<<<<< HEAD
 </html>
 
+=======
+</html>
+>>>>>>> 7d1d93d69e1ba52f5feb87a8d65e7b9676125759
