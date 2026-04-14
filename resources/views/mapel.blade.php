@@ -5,8 +5,8 @@
     
     <div class="mb-6 flex justify-between items-end">
         <div>
-            <h2 class="text-2xl font-bold text-gray-800">Daftar Mata Pelajaran [ Kelas 4 ]</h2>
-            <p class="text-gray-500 text-sm italic">Kelola Dta Muatan Tematik dan Non-Tematik</p>
+            <h2 class="text-2xl font-bold text-gray-800">Daftar Mata Pelajaran </h2>
+            <p class="text-gray-500 text-sm italic">Kelola Data Mata Pelajaran Berdasarkan Jenis Pembelajaran</p>
         </div>
         <button @click="bukaModal('tambah')" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold shadow-lg transition active:scale-95">
             + Tambah Data Baru
@@ -15,13 +15,13 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div class="bg-gray-100 p-6 rounded-2xl border border-gray-300 shadow-sm">
-            <h3 class="font-bold text-gray-800 text-sm mb-4 uppercase tracking-wider">A. Muatan Tematik</h3>
+            <h3 class="font-bold text-gray-800 text-sm mb-4 uppercase tracking-wider">A. Tematik</h3>
             <div class="bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm">
                 <table class="w-full text-left text-sm">
                     <thead class="bg-gray-500 text-white text-xs font-bold uppercase">
                         <tr>
                             <th class="p-3 text-center border-r border-gray-400 w-12">No</th>
-                            <th class="p-3 border-r border-gray-400">Nama Muatan</th>
+                            <th class="p-3 border-r border-gray-400">Mata Pelajaran</th>
                             <th class="p-3 text-center border-r border-gray-400 w-20">KKM</th>
                             <th class="p-3 text-center">Aksi</th>
                         </tr>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="bg-gray-100 p-6 rounded-2xl border border-gray-300 shadow-sm">
-            <h3 class="font-bold text-gray-800 text-sm mb-4 uppercase tracking-wider">B. Muatan Non-Tematik</h3>
+            <h3 class="font-bold text-gray-800 text-sm mb-4 uppercase tracking-wider">B. Non-Tematik</h3>
             <div class="bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm">
                 <table class="w-full text-left text-sm">
                     <thead class="bg-gray-500 text-white text-xs font-bold uppercase">
