@@ -17,7 +17,7 @@
         </div>
         
         <form action="{{ route('dashboard') }}" method="GET" class="space-y-4">
-            <input type="text" placeholder="Username / NIP" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-400 outline-none">
+            <input type="text" placeholder="Username" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-400 outline-none">
             <input type="password" placeholder="Password" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-400 outline-none">
             <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 transition shadow-md">LOGIN</button>
         </form>

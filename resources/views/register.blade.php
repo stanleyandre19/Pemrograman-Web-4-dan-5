@@ -11,7 +11,7 @@
         <div class="text-center mb-6">
             <h1 class="text-xl font-bold text-blue-600 italic mb-2">Rapor.id</h1>
             <h2 class="text-2xl font-bold text-gray-800">Daftar Akun Baru</h2>
-            <p class="text-gray-500 text-sm">Buat Akun Portal Baru</p>
+            <p class="text-gray-500 text-sm">Buat Akun Baru</p>
         </div>
         
         <form action="{{ route('login') }}" method="GET" class="space-y-4">
@@ -20,7 +20,7 @@
                 <input type="text" class="w-full mt-1 p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="Nama Lengkap">
             </div>
             <div>
-                <label class="block text-sm font-semibold text-gray-700">NIP</label>
+                <label class="block text-sm font-semibold text-gray-700">NISN/NIP</label>
                 <input type="text" class="w-full mt-1 p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" placeholder="Masukkan NIP">
             </div>
             <div>
@@ -30,6 +30,7 @@
             <div>
                 <label class="block text-sm font-semibold text-gray-700">Pilih User</label>
                 <select class="w-full mt-1 p-2 border border-gray-300 rounded-lg bg-white outline-none">
+                    <option>Siswa</option>
                     <option>Guru</option>
                     <option>Wali Murid</option>
                 </select>
