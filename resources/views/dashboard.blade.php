@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="mb-8">
-    <h2 class="text-2xl font-bold text-gray-800">Ringkasan Data</h2>
-    <p class="text-gray-500">Pantau statistik pendidikan di sistem Rapor.id</p>
+    <h2 class="text-2xl font-bold text-gray-800">Ringkasan Data Pendidikan </h2>
+    <p class="text-gray-500">Data Pintar Untuk Pendidikan Yang Lebih Baik</p>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
