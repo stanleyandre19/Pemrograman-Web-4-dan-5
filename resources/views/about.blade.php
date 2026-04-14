@@ -1,83 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About - Rapor.id</title>
+    <title>Tentang - Rapor.id</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
             margin: 0;
+
+            /* Background sama seperti home */
+            background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+                        url('{{ asset('img/polibatam.jpg') }}');
+            background-size: cover;
+            background-position: center;
         }
 
+        /* NAVBAR */
         .navbar {
-            background-color: #ffffff;
-            padding: 15px 30px;
+            background: white;
+            padding: 15px 60px;
             display: flex;
             justify-content: space-between;
-            border-bottom: 1px solid #ccc;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
         }
 
-        .navbar a {
+        .navbar .menu a {
+            margin-left: 25px;
             text-decoration: none;
-            margin: 0 10px;
-            color: black;
+            color: #333;
+            font-size: 14px;
         }
 
-        .container {
+        /* CARD */
+        .card {
+            width: 60%;
+            margin: 60px auto;
+            background: white;
             padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
             text-align: center;
         }
 
-        .box {
-            background-color: white;
-            padding: 30px;
-            width: 60%;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        h1 {
+        .title {
+            font-size: 28px;
+            letter-spacing: 4px;
+            font-weight: bold;
             margin-bottom: 20px;
         }
 
-        p {
-            line-height: 1.6;
+        .desc {
+            font-size: 15px;
             color: #444;
+            line-height: 1.8;
+            margin-bottom: 20px;
         }
+
+        /* BOX FITUR */
+        .fitur {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 150px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 10px;
+        }
+
+        .box img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            font-size: 13px;
+            margin: 0;
+        }
+
     </style>
 </head>
 <body>
 
+<!-- NAVBAR -->
 <div class="navbar">
     <div><b>Rapor.id</b></div>
-    <div>
+
+    <div class="menu">
         <a href="/home">Beranda</a>
         <a href="/about">Tentang</a>
     </div>
 </div>
 
-<div class="container">
-    <div class="box">
-        <h1>Tentang Sistem</h1>
+<!-- CONTENT -->
+<div class="card">
 
-        <p>
-            Sistem Pengelolaan Rapor Siswa (Rapor.id) merupakan aplikasi berbasis web 
-            yang digunakan untuk membantu sekolah dalam mengelola data nilai siswa 
-            secara efektif dan efisien.
-        </p>
+    <div class="title">TENTANG SISTEM</div>
 
-        <p>
-            Dengan sistem ini, guru dapat dengan mudah menginput nilai, 
-            memantau perkembangan siswa, serta menghasilkan laporan rapor 
-            secara otomatis.
-        </p>
-
-        <p>
-            Aplikasi ini dikembangkan sebagai bagian dari Project Based Learning (PBL) 
-            menggunakan framework Laravel.
-        </p>
+    <div class="desc">
+        Rapor.id merupakan sistem informasi berbasis web yang digunakan 
+        untuk membantu pengelolaan nilai siswa secara digital. 
+        Sistem ini dirancang untuk mempermudah guru dalam melakukan 
+        input nilai serta menghasilkan laporan rapor dengan lebih cepat 
+        dan efisien.
     </div>
+
+    <div class="desc">
+        Dengan adanya sistem ini, proses pengolahan data menjadi lebih 
+        terstruktur, aman, dan mudah diakses oleh pihak yang berwenang 
+        seperti Admin TU, Guru, dan Wali Kelas.
+    </div>
+
+    <div class="desc">
+        Aplikasi ini dikembangkan sebagai bagian dari Project Based Learning (PBL) 
+        menggunakan framework Laravel.
+    </div>
+
+    <!-- FITUR -->
+    <div class="fitur">
+
+        <div class="box">
+            <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png">
+            <p>Kelola Data</p>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+            <p>Input Nilai</p>
+        </div>
+
+        <div class="box">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png">
+            <p>Laporan Rapor</p>
+        </div>
+
+    </div>
+
 </div>
 
 </body>
