@@ -4,25 +4,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class SiswaController extends Controller
 {
-    // Fungsi ambil data
+    // Ambil data siswa SD
     public function getData()
     {
-        $data = [
-            "nama_aplikasi" => "Rapor.id",
-            "kampus" => "Politeknik Negeri Batam",
-            "pengguna" => ["Admin TU", "Guru", "Wali Kelas"]
+        $dataSiswa = [
+            ['id' => 1, 'nama' => 'Budi', 'kelas' => '3A', 'nilai' => 85],
+            ['id' => 2, 'nama' => 'Siti', 'kelas' => '4B', 'nilai' => 90],
+            ['id' => 3, 'nama' => 'Andi', 'kelas' => '5A', 'nilai' => 78],
+            ['id' => 4, 'nama' => 'Rina', 'kelas' => '6B', 'nilai' => 88],
         ];
 
-        return $data;
+        return $dataSiswa;
     }
 
-    // Fungsi tampilkan ke view
+    // Tampilkan ke view
     public function tampilkan()
     {
-        $data = $this->getData(); // ambil data
-
-        return view('home', $data); // kirim ke view
+        $data = $this->getData();
+        return view('siswa', compact('data'));
     }
 }
