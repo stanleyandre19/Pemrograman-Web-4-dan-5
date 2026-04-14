@@ -1,63 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home - Sistem Rapot Siswa</title>
+    <title>Home - Rapor.id</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
             margin: 0;
-            background-color: #f4f6f9;
         }
-        nav {
-            background-color: #2c3e50;
-            padding: 10px;
-            text-align: center;
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
         }
-        nav a {
-            color: white;
-            margin: 0 10px;
+
+        .navbar a {
             text-decoration: none;
-            font-weight: bold;
+            margin: 0 10px;
+            color: black;
         }
-        nav a:hover {
-            text-decoration: underline;
+
+        .login-btn {
+            background-color: #ddd;
+            padding: 5px 15px;
+            border-radius: 5px;
         }
+
+        /* CONTENT */
         .container {
-            padding: 30px;
             text-align: center;
+            padding: 30px;
         }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .subtitle {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .image-box img {
+            width: 60%;
+            border-radius: 10px;
+        }
+
+        /* INFO SECTION */
+        .info {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
         .card {
             background-color: white;
             padding: 20px;
-            margin: 20px auto;
-            width: 60%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .card h3 {
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-<nav>
-    <a href="/home">Home</a>
-    <a href="/about">About</a>
-</nav>
+<!-- NAVBAR -->
+<div class="navbar">
+    <div><b>Rapor.id</b></div>
+    <div>
+        <a href="/home">Beranda</a>
+        <a href="/about">Tentang</a>
+        <a href="/login" class="login-btn">Login</a>
+    </div>
+</div>
 
+<!-- MAIN -->
 <div class="container">
-    <div class="card">
-        <h1>Selamat Datang 👋</h1>
-        <h2>Sistem Pengelolaan Rapot Siswa</h2>
+    <div class="title">RAPOR</div>
+    <div class="subtitle">
+        Sistem Informasi & Layanan Mahasiswa<br>
+        Politeknik Negeri Batam
+    </div>
 
-        <p>
-            Website ini digunakan untuk membantu sekolah dalam mengelola data nilai siswa 
-            secara lebih mudah dan terstruktur.
-        </p>
+    <div class="image-box">
+        <img src="https://via.placeholder.com/600x350" alt="gambar">
+    </div>
 
-        <ul style="text-align:left; display:inline-block;">
-            <li>Manajemen Data Siswa</li>
-            <li>Input dan Pengolahan Nilai</li>
-            <li>Monitoring Rapot</li>
-        </ul>
+    <div class="info">
+        <div class="card">
+            <h3>Apa fungsi sistem ini?</h3>
+            <p>
+                Sistem ini membantu guru dalam mengelola nilai siswa 
+                secara digital dan terstruktur.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Pengguna</h3>
+            <p>
+                - Admin TU<br>
+                - Guru<br>
+                - Wali Kelas
+            </p>
+        </div>
     </div>
 </div>
 
