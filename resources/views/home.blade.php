@@ -7,7 +7,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
 
-            /* Background Poltek halus */
+            /* Background Poltek */
             background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
                         url('{{ asset('img/polibatam.jpg') }}');
             background-size: cover;
