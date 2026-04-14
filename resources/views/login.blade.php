@@ -13,7 +13,7 @@
                 <span class="text-blue-600 text-3xl font-bold italic">R</span>
             </div>
             <h1 class="text-2xl font-bold text-gray-800">Rapor.id</h1>
-            <p class="text-gray-400 text-sm mt-1">Sistem Informasi & Layanan</p>
+            <p class="text-gray-400 text-sm mt-1">Sistem Informasi & Layanan Raport Siswa</p>
         </div>
         
         <form action="{{ route('dashboard') }}" method="GET" class="space-y-4">
