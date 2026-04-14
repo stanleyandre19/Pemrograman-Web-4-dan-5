@@ -7,8 +7,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
 
-            /* BACKGROUND POLTEK (HALUS) */
-            background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+            /* Background Poltek halus */
+            background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
                         url('{{ asset('img/polibatam.jpg') }}');
             background-size: cover;
             background-position: center;
@@ -17,7 +17,7 @@
         /* NAVBAR */
         .navbar {
             background: white;
-            padding: 14px 60px;
+            padding: 15px 60px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -38,14 +38,18 @@
             background: #f3f3f3;
         }
 
-        /* CARD UTAMA */
+        .login-btn:hover {
+            background: #ddd;
+        }
+
+        /* CARD */
         .card {
             width: 65%;
-            margin: 40px auto;
-            background: #ffffffee;
+            margin: 50px auto;
+            background: white;
             padding: 35px;
             border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
         }
 
         .title {
@@ -57,7 +61,7 @@
 
         .subtitle {
             text-align: center;
-            color: #555;
+            color: #666;
             margin-bottom: 25px;
         }
 
@@ -66,22 +70,22 @@
             border-radius: 10px;
         }
 
-        /* SECTION INFO */
+        /* INFO */
         .info {
             display: flex;
             gap: 30px;
-            margin-top: 30px;
+            margin-top: 35px;
             align-items: center;
         }
 
         .info img {
-            width: 130px;
+            width: 120px;
         }
 
         .info-text {
             font-size: 14px;
             color: #444;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
         .info-text b {
@@ -92,7 +96,7 @@
         /* TENTANG */
         .tentang {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 45px;
             font-weight: bold;
             letter-spacing: 4px;
         }
@@ -119,7 +123,7 @@
     </div>
 </div>
 
-<!-- CARD -->
+<!-- CARD UTAMA -->
 <div class="card">
 
     <div class="title">RAPOR</div>
@@ -141,9 +145,9 @@
         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
 
         <div class="info-text">
-            <b>Apa fungsi dari rapor.id ini?</b>
-            Rapor.id membantu guru dalam mengelola nilai siswa secara digital 
-            dengan lebih mudah dan efisien.
+            <b>Apa fungsi dari rapor.id?</b>
+            Sistem ini membantu guru dalam mengelola nilai siswa 
+            secara digital dengan lebih mudah dan efisien.
 
             <br><br>
 
@@ -154,17 +158,16 @@
 
             <br><br>
 
-            Kami memberikan sistem yang terintegrasi untuk mempermudah 
-            pengolahan data rapor siswa secara cepat dan akurat.
+            Sistem ini dirancang untuk meningkatkan efisiensi 
+            dalam pengolahan data rapor siswa.
         </div>
 
     </div>
 
-    <!-- TENTANG -->
     <div class="tentang">TENTANG</div>
 
     <div class="footer-text">
-        Sistem untuk membantu pengelolaan rapor siswa secara digital.
+        Sistem pengelolaan rapor siswa berbasis web.
     </div>
 
 </div>
