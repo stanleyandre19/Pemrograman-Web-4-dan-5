@@ -3,7 +3,7 @@
 @section('content')
 <div x-data="{ showModal: false, nama: '', nisn: '' }">
     <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-bold text-gray-800">Daftar Siswa [ Kelas 4 ]</h2>
+        <h2 class="text-2xl font-bold text-gray-800">Daftar Siswa </h2>
         <button @click="showModal = true" class="bg-white border-2 border-gray-300 px-6 py-2 rounded-xl font-bold hover:bg-gray-50 transition active:scale-95 shadow-sm">
             + Tambah Siswa
         </button>
@@ -16,15 +16,17 @@
                 <option>Kelas - 4 A</option>
                 <option>Kelas - 4 B</option>
                 <option>Kelas - 5 A</option>
+                <option>Kelas - 5 B</option>
             </select>
         </div>
+        
         
         <table class="w-full text-left">
             <thead class="bg-gray-100 text-xs font-bold text-gray-500 uppercase tracking-wider">
                 <tr>
                     <th class="p-4 w-16">No.</th>
                     <th class="p-4">Nama Siswa</th>
-                    <th class="p-4">NISN / NIP</th>
+                    <th class="p-4">NISN </th>
                     <th class="p-4 text-center">Aksi</th>
                 </tr>
             </thead>
