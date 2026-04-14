@@ -1,122 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home - Rapor.id</title>
+    <title>Rapor.id</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #eaeaea;
             margin: 0;
         }
 
         /* NAVBAR */
         .navbar {
-            background-color: #ffffff;
-            padding: 15px 30px;
+            background: white;
+            padding: 12px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid #ccc;
         }
 
-        .navbar a {
-            text-decoration: none;
+        .nav-left {
+            font-weight: bold;
+        }
+
+        .nav-right a {
             margin: 0 10px;
+            text-decoration: none;
             color: black;
         }
 
         .login-btn {
-            background-color: #ddd;
+            border: 1px solid #aaa;
             padding: 5px 15px;
             border-radius: 5px;
+            background: #f0f0f0;
         }
 
-        /* CONTENT */
+        /* MAIN */
         .container {
             text-align: center;
-            padding: 30px;
+            padding: 40px;
         }
 
         .title {
-            font-size: 28px;
+            font-size: 26px;
+            letter-spacing: 4px;
             font-weight: bold;
-            letter-spacing: 3px;
         }
 
         .subtitle {
+            margin-top: 10px;
             color: #555;
-            margin-bottom: 20px;
         }
 
-        .image-box img {
-            width: 60%;
+        .main-img {
+            margin-top: 20px;
+        }
+
+        .main-img img {
+            width: 500px;
             border-radius: 10px;
         }
 
-        /* INFO SECTION */
-        .info {
-            margin-top: 40px;
+        /* SECTION */
+        .section {
+            margin-top: 50px;
             display: flex;
             justify-content: center;
-            gap: 30px;
+            gap: 40px;
         }
 
-        .card {
-            background-color: white;
+        .box {
+            background: white;
             padding: 20px;
-            width: 300px;
+            width: 350px;
             border-radius: 10px;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
             text-align: left;
         }
 
-        .card h3 {
+        .box h3 {
             text-align: center;
         }
+
+        .tentang {
+            margin-top: 40px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
     </style>
 </head>
 <body>
 
-<!-- NAVBAR -->
 <div class="navbar">
-    <div><b>Rapor.id</b></div>
-    <div>
+    <div class="nav-left">Rapor.id</div>
+    <div class="nav-right">
         <a href="/home">Beranda</a>
         <a href="/about">Tentang</a>
-        <a href="/login" class="login-btn">Login</a>
+        <a href="/login" class="login-btn">LOGIN</a>
     </div>
 </div>
 
-<!-- MAIN -->
 <div class="container">
     <div class="title">RAPOR</div>
+
     <div class="subtitle">
         Sistem Informasi & Layanan Mahasiswa<br>
         Politeknik Negeri Batam
     </div>
 
-    <div class="image-box">
-        <img src="https://via.placeholder.com/600x350" alt="gambar">
+    <div class="main-img">
+        <img src="https://via.placeholder.com/500x300">
     </div>
 
-    <div class="info">
-        <div class="card">
-            <h3>Apa fungsi sistem ini?</h3>
+    <div class="section">
+        <div class="box">
+            <h3>Apa fungsi dari sistem ini?</h3>
             <p>
-                Sistem ini membantu guru dalam mengelola nilai siswa 
-                secara digital dan terstruktur.
+                Rapor.id memudahkan guru dalam mengelola rapor siswa 
+                secara digital dan efisien.
             </p>
         </div>
 
-        <div class="card">
+        <div class="box">
             <h3>Pengguna</h3>
             <p>
-                - Admin TU<br>
-                - Guru<br>
-                - Wali Kelas
+                Admin TU<br>
+                Guru<br>
+                Wali kelas
             </p>
         </div>
     </div>
+
+    <div class="tentang">TENTANG</div>
 </div>
 
 </body>
