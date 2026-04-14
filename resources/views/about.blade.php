@@ -12,7 +12,7 @@
                         url('{{ asset('img/polibatam.jpg') }}');
             background-size: cover;
             background-position: center;
-        }
+        
 
         /* NAVBAR */
         .navbar {
