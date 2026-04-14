@@ -129,13 +129,12 @@
     <div class="title">RAPOR</div>
 
     <div class="subtitle">
-        Sistem Informasi & Layanan Mahasiswa<br>
-        Politeknik Negeri Batam
+        Sistem Informasi & Layanan Rapor Siswa<br>
     </div>
 
     <!-- FOTO KELOMPOK -->
     <div class="main-img">
-        <img src="{{ asset('img/foto-kelompok.jpeg') }}" alt="Foto Kelompok">
+        <img src="{{ asset('img/Gambar Poltek.jpg') }}" alt="Foto Kelompok">
     </div>
 
     <!-- INFO -->
